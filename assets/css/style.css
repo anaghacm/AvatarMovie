@@ -1,0 +1,253 @@
+/* font-family: 'Unbounded', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header starts */
+.banner {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner_content {
+    margin-bottom: 50px;
+    color: #C4E2E3;
+    text-align: center;
+}
+
+.banner_content h1 {
+    font-size: 70px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Unbounded', cursive;
+}
+
+.banner_content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.readmore {
+    background-color: #174459;
+    color: #C4E2E3;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    z-index: 100;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+    padding-left: 30px;
+}
+
+/* Header ends */
+
+/* Section starts */
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #174459;
+    font-family: 'Roboto', sans-serif;
+}
+
+.trailer {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.music {
+    padding-top: 50px;
+}
+
+.music div {
+    background-color: #B3E6D6;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 100px;
+    color: #174459;
+    font-family: 'Roboto', sans-serif;
+}
+
+video {
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.frame {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.movieinfo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+hr {
+    border: 1px solid #174459;
+}
+
+.imgdiv {
+    width: 30%;
+}
+
+.textdiv {
+    width: 50%;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.cast {
+    display: flex;
+    align-items: center;
+}
+
+.castinfo {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+table {
+    padding-top: 50px;
+    margin: auto;
+}
+
+td {
+    padding: 20px 50px 20px 50px;
+}
+
+td p {
+    padding: 5px;
+    margin: 0;
+}
+
+td img {
+    transition: all 0.5s;
+    width: 180px;
+    height: 200px;
+}
+
+td img:hover {
+    transform: translateY(-20px);
+}
+
+.review {
+    width: 40%;
+    margin: auto;
+    background-color: #C4E2E3;
+    padding: 40px 80px;
+    color: #174459;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.review div {
+    padding: 10px;
+}
+
+.review button {
+    background-color: #174459;
+    color: #C4E2E3;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+/* Section ends */
+
+/* Footer starts */
+footer {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #C4E2E3;
+    text-align: center;
+}
+
+/* Footer ends */
+
+/* Responsive */
+@media only screen and (max-width: 1000px) {
+
+    td {
+        padding: 10px 10px 10px 0px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .trailer {
+        width: 100%;
+    }
+
+    .frame {
+        width: 100%;
+    }
+
+    .movieinfo {
+        display: block;
+    }
+
+    .imgdiv {
+        width: 100%;
+    }
+
+    .textdiv {
+        width: 80%;
+        margin: auto;
+        padding-right: 0;
+    }
+
+    .castinfo {
+        width: 80%;
+    }
+
+    td {
+        font-size: 12px;
+    }
+
+    td img {
+        width: 120px;
+        height: 150px;
+    }
+}
